@@ -1,4 +1,0 @@
-#!/bin/bash
-
-prettier . --write
-tsc
