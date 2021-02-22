@@ -10,3 +10,6 @@ fmt:
 	@yarn prettier . --write
 install:
 	@yarn install
+
+test: install fmt build
+	test $(shell make run) == 'Hello'
