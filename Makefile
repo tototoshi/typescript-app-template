@@ -12,4 +12,4 @@ install:
 	@yarn install
 
 test: install fmt build
-	[ "$(shell make run)" == "Hello" ] || exit 1
+	./test.sh
