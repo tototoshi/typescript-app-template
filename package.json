@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "main": "dist/index.js",
   "license": "Apache-2.0",
+  "files": [
+    "bin",
+    "dist"
+  ],
   "devDependencies": {
     "@types/node": "^14.14.34",
     "prettier": "^2.2.1",
