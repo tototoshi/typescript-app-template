@@ -5,11 +5,11 @@ all: install fmt build run
 run:
 	@node dist/index.js
 build:
-	@yarn tsc
+	@npx tsc
 fmt:
-	@yarn prettier . --write
+	@npx prettier . --write
 install:
-	@yarn install
+	@npm install
 
 test: install fmt build
 	./test.sh
