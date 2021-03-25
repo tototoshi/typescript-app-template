@@ -11,5 +11,7 @@ fmt:
 install:
 	@npm install
 
-test: install fmt build
-	./test.sh
+test:
+	@npx jest
+
+ci: install fmt build test

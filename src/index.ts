@@ -1,1 +1,3 @@
-console.log("Hello");
+import { getMessage } from "./message";
+
+console.log(getMessage());
