@@ -8,7 +8,7 @@
     "dist"
   ],
   "devDependencies": {
-    "@types/jest": "^26.0.24",
+    "@types/jest": "^27.0.1",
     "@types/node": "^16.6.1",
     "jest": "^27.0.6",
     "prettier": "^2.3.2",
